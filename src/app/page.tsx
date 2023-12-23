@@ -8,7 +8,7 @@ export default function Home({
 }: HtagProps): JSX.Element {
   return (
     <div className={styles.main}>
-      <Htag tag={"h1"} children={children} />
+      <Htag tag={tag} children={children} />
     </div>
   );
 }
